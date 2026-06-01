@@ -128,7 +128,7 @@ function MobileMenu({ open, onClose, route, navigate, onOpenConsult }) {
           <a href="https://wa.me/77022140606" className="flex items-center gap-2 hover:text-ink-900">
             <Icons.WhatsApp size={15}/> WhatsApp
           </a>
-          <a href="https://instagram.com" className="flex items-center gap-2 hover:text-ink-900">
+          <a href="https://www.instagram.com/manas_stroi_zhanaozen/" className="flex items-center gap-2 hover:text-ink-900">
             <Icons.Instagram size={15}/> Instagram
           </a>
         </div>
@@ -160,7 +160,7 @@ function Footer({ navigate, onOpenConsult }) {
           <div className="lg:col-span-5 lg:pl-8 lg:border-l border-white/10 flex flex-col justify-end">
             <Reveal delay={200}>
               <div className="space-y-5">
-                <FooterContact icon={<Icons.MapPin size={18}/>}  label="Адрес"   value="г. Атырау, ул. Сырым Датова 99а" />
+                <FooterContact icon={<Icons.MapPin size={18}/>}  label="Адрес"   value="г. Атырау, ул. ​Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1" />
                 <FooterContact icon={<Icons.Phone size={18}/>}   label="Телефон" value="+7 (702) 140-06-06" href="tel:+77022140606"/>
                 <FooterContact icon={<Icons.Mail size={18}/>}    label="Почта"   value="info@manasstroi.kz" href="mailto:info@manasstroi.kz"/>
                 <FooterContact icon={<Icons.Clock size={18}/>}   label="Часы"    value="Пн–Сб 09:00 — 18:00" />
@@ -178,7 +178,7 @@ function Footer({ navigate, onOpenConsult }) {
             </p>
             <div className="mt-7 flex gap-3">
               <SocialLink href="https://wa.me/77022140606"     icon={<Icons.WhatsApp size={17}/>}/>
-              <SocialLink href="https://instagram.com"          icon={<Icons.Instagram size={17}/>}/>
+              <SocialLink href="https://www.instagram.com/manas_stroi_zhanaozen/"          icon={<Icons.Instagram size={17}/>}/>
               <SocialLink href="tel:+77022140606"               icon={<Icons.Phone size={17}/>}/>
               <SocialLink href="mailto:info@manasstroi.kz"    icon={<Icons.Mail size={17}/>}/>
             </div>
