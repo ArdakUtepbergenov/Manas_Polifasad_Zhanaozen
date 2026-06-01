@@ -160,7 +160,7 @@ function Footer({ navigate, onOpenConsult }) {
           <div className="lg:col-span-5 lg:pl-8 lg:border-l border-white/10 flex flex-col justify-end">
             <Reveal delay={200}>
               <div className="space-y-5">
-                <FooterContact icon={<Icons.MapPin size={18}/>}  label="Адрес"   value="г. Атырау, ул. ​Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1" />
+                <FooterContact icon={<Icons.MapPin size={18}/>}  label="Адрес"   value="г. Жаңаөзен, ул. ​Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1" />
                 <FooterContact icon={<Icons.Phone size={18}/>}   label="Телефон" value="+7 (702) 140-06-06" href="tel:+77022140606"/>
                 <FooterContact icon={<Icons.Mail size={18}/>}    label="Почта"   value="info@manasstroi.kz" href="mailto:info@manasstroi.kz"/>
                 <FooterContact icon={<Icons.Clock size={18}/>}   label="Часы"    value="Пн–Сб 09:00 — 18:00" />
@@ -173,7 +173,7 @@ function Footer({ navigate, onOpenConsult }) {
           <div className="md:col-span-5">
             <Logo dark />
             <p className="mt-6 max-w-md text-[14.5px] text-white/60 leading-[1.7]">
-              Производство и монтаж премиальных фасадных систем в Атырау с 2018 года.
+              Производство и монтаж премиальных фасадных систем в Жаңаөзен с 2018 года.
               Архитектурное качество, гарантия год, собственная производственная площадка.
             </p>
             <div className="mt-7 flex gap-3">
