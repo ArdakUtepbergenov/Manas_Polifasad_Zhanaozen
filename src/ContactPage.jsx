@@ -100,7 +100,6 @@ function ContactPage({ navigate, onOpenConsult }) {
               icon={<Icons.Instagram size={22}/>}
               label="INSTAGRAM"
               value="@manas_stroi_zhanaozen"
-              hint="82 200 подписчиков"
               href="https://www.instagram.com/manas_stroi_zhanaozen/"
             />
           </div>
