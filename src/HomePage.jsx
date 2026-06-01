@@ -424,11 +424,11 @@ function InstagramSection() {
       <Container size="wide">
         <SectionHeader
           align="split"
-          eyebrow="@МАНАССТРОЙ · INSTAGRAM"
+          eyebrow="@МАНАССТРОЙЖАНАОЗЕН · INSTAGRAM"
           title={<>Хроника наших<br/>фасадов</>}
           lead="Каждую неделю показываем процесс с объектов, детали монтажа и архитектурную съёмку завершённых работ."
           cta={
-            <a href="https://instagram.com" className="inline-flex items-center gap-3 text-[14px] font-medium tracking-tight hover:text-accent transition-colors">
+            <a href="https://www.instagram.com/manas_stroi_zhanaozen/" className="inline-flex items-center gap-3 text-[14px] font-medium tracking-tight hover:text-accent transition-colors">
               <Icons.Instagram size={18}/> Подписаться · 12.4K
               <Icons.ArrowUpRight size={16}/>
             </a>
@@ -437,7 +437,7 @@ function InstagramSection() {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-6 gap-3 md:gap-4">
           {imgs.map((src, i) => (
             <Reveal key={i} delay={i * 60}>
-              <a href="https://instagram.com" className="block group relative overflow-hidden rounded-2xl" style={{ aspectRatio: '1/1' }}>
+              <a href="https://www.instagram.com/manas_stroi_zhanaozen/" className="block group relative overflow-hidden rounded-2xl" style={{ aspectRatio: '1/1' }}>
                 <img src={src} alt="" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" loading="lazy"/>
                 <div className="absolute inset-0 bg-ink-900/0 group-hover:bg-ink-900/40 transition-colors duration-500 flex items-center justify-center">
                   <Icons.Instagram size={28} className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
