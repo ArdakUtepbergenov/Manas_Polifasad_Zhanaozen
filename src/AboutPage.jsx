@@ -31,7 +31,7 @@ function AboutPage({ navigate, onOpenConsult }) {
               <Reveal delay={280}>
                 <Card className="p-6">
                   <div className="text-[11px] font-mono uppercase tracking-[0.14em] text-ink-400 mb-1">ОФИС</div>
-                  <div className="text-[15px] font-medium leading-snug">г. Атырау, ул. Сырым Датова 99а</div>
+                  <div className="text-[15px] font-medium leading-snug">г. Атырау, ул. Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1</div>
                 </Card>
               </Reveal>
             </div>
