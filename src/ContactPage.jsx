@@ -99,9 +99,9 @@ function ContactPage({ navigate, onOpenConsult }) {
             <ContactCard
               icon={<Icons.Instagram size={22}/>}
               label="INSTAGRAM"
-              value="@manas_stroi"
+              value="@manas_stroi_zhanaozen"
               hint="82 200 подписчиков"
-              href="https://instagram.com/manas_stroi/"
+              href="https://www.instagram.com/manas_stroi_zhanaozen/"
             />
           </div>
         </Container>
@@ -119,11 +119,11 @@ function ContactPage({ navigate, onOpenConsult }) {
                 <div className="p-8 md:p-10 flex-1 flex flex-col">
                   <Eyebrow dark className="mb-4">ОФИС И ПРОИЗВОДСТВО</Eyebrow>
                   <h3 className="display text-[28px] md:text-[32px] font-medium tracking-tight leading-tight mb-6">
-                    Атырау, ул. Сырым Датова 99а
+                    Атырау, ул. Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1
                   </h3>
                   <div className="space-y-5 text-[14.5px]">
-                    <ContactLine icon={<Icons.MapPin size={16}/>}   label="Адрес офиса"  value="г. Атырау, ул. Сырым Датова 99а"/>
-                    <ContactLine icon={<Icons.Building size={16}/>} label="Производство" value="г. Атырау, ул. Сырым Датова 99а"/>
+                    <ContactLine icon={<Icons.MapPin size={16}/>}   label="Адрес офиса"  value="г. Атырау, ул. Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1"/>
+                    <ContactLine icon={<Icons.Building size={16}/>} label="Производство" value="г. Атырау, ул. Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1"/>
                     <ContactLine icon={<Icons.Clock size={16}/>}    label="Часы работы"  value="Пн — Сб · 09:00 — 18:00"/>
                     <ContactLine icon={<Icons.Phone size={16}/>}    label="Телефон"      value="+7 702 214 06 06"/>
                   </div>
@@ -156,7 +156,7 @@ function ContactPage({ navigate, onOpenConsult }) {
               <div className="absolute top-6 left-6 bg-white rounded-2xl border border-ink-200 shadow-soft p-5 max-w-xs">
                 <div className="text-[11px] font-mono uppercase tracking-[0.14em] text-ink-400 mb-1">МЫ ЗДЕСЬ</div>
                 <div className="display text-[18px] font-medium mb-1">Манас Строй</div>
-                <div className="text-[13px] text-ink-500 leading-relaxed">ул. Сырым Датова 99а<br/>г. Атырау, Казахстан</div>
+                <div className="text-[13px] text-ink-500 leading-relaxed">ул. Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1<br/>г. Атырау, Казахстан</div>
                 <div className="mt-3 pt-3 border-t border-ink-100 flex items-center gap-3 text-[13px]">
                   <a href={WA_URL} target="_blank" rel="noopener noreferrer" className="text-[#25D366] hover:underline flex items-center gap-1.5">
                     <Icons.WhatsApp size={14}/> Написать
