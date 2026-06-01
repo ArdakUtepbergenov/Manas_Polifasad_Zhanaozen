@@ -1,6 +1,6 @@
 // App entry — hash-based routing, scroll handling, mount.
 
-const WHATSAPP_URL = 'https://wa.me/77750280303';
+const WHATSAPP_URL = 'https://wa.me/77022140606';
 
 function openWhatsApp() {
   window.open(WHATSAPP_URL, '_blank', 'noopener,noreferrer');
