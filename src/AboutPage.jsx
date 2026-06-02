@@ -9,29 +9,29 @@ function AboutPage({ navigate, onOpenConsult }) {
         <Container size="wide">
           <div className="grid lg:grid-cols-12 gap-10">
             <div className="lg:col-span-8">
-              <Reveal><Eyebrow className="mb-6">О КОМПАНИИ · С 2018 ГОДА</Eyebrow></Reveal>
+              <Reveal><Eyebrow className="mb-6">КОМПАНИЯ ТУРАЛЫ · 2018 ЖЫЛДАН</Eyebrow></Reveal>
               <Reveal delay={80}>
                 <h1 className="display text-[clamp(48px,7.6vw,128px)] font-medium leading-[0.94] tracking-tightest">
-                  Архитектурное<br/>отношение к <span className="text-gold italic font-light">фасаду.</span>
+                  Фасадқа<br/>сәулеттік <span className="text-gold italic font-light">көзқарас.</span>
                 </h1>
               </Reveal>
               <Reveal delay={160}>
                 <p className="mt-10 max-w-2xl text-[18px] md:text-[20px] leading-[1.55] text-ink-600">
-                  Манас Строй — не подрядчик, а архитектурно-производственная студия, которая занимается только одним делом: фасадами премиальных зданий в Жаңаөзен.
+                  Манас Строй — мердігер емес, Жаңаөзендегі премиалды ғимараттардың фасадтарымен ғана айналысатын сәулеттік-өндірістік студия.
                 </p>
               </Reveal>
             </div>
             <div className="lg:col-span-4 flex flex-col justify-end gap-4">
               <Reveal delay={220}>
                 <Card className="p-6">
-                  <div className="text-[11px] font-mono uppercase tracking-[0.14em] text-ink-400 mb-1">ОСНОВАНО</div>
+                  <div className="text-[11px] font-mono uppercase tracking-[0.14em] text-ink-400 mb-1">НЕГІЗДЕЛГЕН</div>
                   <div className="display text-[28px] font-medium tracking-tight">2018</div>
                 </Card>
               </Reveal>
               <Reveal delay={280}>
                 <Card className="p-6">
-                  <div className="text-[11px] font-mono uppercase tracking-[0.14em] text-ink-400 mb-1">ОФИС</div>
-                  <div className="text-[15px] font-medium leading-snug">г. Жаңаөзен, ул. Жибек жолы​ Улица Кайсагалиев Гарипулла, 3/1</div>
+                  <div className="text-[11px] font-mono uppercase tracking-[0.14em] text-ink-400 mb-1">КЕҢСЕ</div>
+                  <div className="text-[15px] font-medium leading-snug">Жаңаөзен қ., Жібек жолы к. Қайсағалиев Ғарипулла, 3/1</div>
                 </Card>
               </Reveal>
             </div>
@@ -48,8 +48,8 @@ function AboutPage({ navigate, onOpenConsult }) {
               <div className="absolute inset-0 bg-gradient-to-tr from-ink-900/40 via-transparent to-transparent"/>
               <div className="absolute bottom-8 left-8 right-8 flex items-end justify-between gap-6 text-white">
                 <div>
-                  <div className="font-mono text-[11px] uppercase tracking-[0.18em] opacity-70 mb-2">ОБЪЕКТ № 312 · 2024</div>
-                  <div className="display text-2xl md:text-3xl font-medium tracking-tight">Резиденция «Терен», мкр. Самал</div>
+                  <div className="font-mono text-[11px] uppercase tracking-[0.18em] opacity-70 mb-2">НЫСАН № 312 · 2024</div>
+                  <div className="display text-2xl md:text-3xl font-medium tracking-tight">Резиденция «Терен», Самал ш/а</div>
                 </div>
                 <div className="hidden md:block text-right">
                   <div className="font-mono text-[11px] uppercase tracking-[0.18em] opacity-70 mb-2">МАТЕРИАЛ</div>
@@ -69,27 +69,27 @@ function AboutPage({ navigate, onOpenConsult }) {
               <Reveal><Eyebrow className="mb-5">ФИЛОСОФИЯ</Eyebrow></Reveal>
               <Reveal delay={80}>
                 <h2 className="display text-[clamp(34px,4.6vw,60px)] font-medium leading-[1] tracking-tightest">
-                  Фасад — это первое<br/>впечатление о здании.<br/>И последнее.
+                  Фасад — ғимарат<br/>туралы алғашқы әсер.<br/>Және соңғысы.
                 </h2>
               </Reveal>
             </div>
             <div className="lg:col-span-6 lg:col-start-7">
               <Reveal delay={160}>
                 <p className="text-[17px] leading-[1.7] text-ink-600 mb-6">
-                  Мы убеждены, что фасад не должен «закрывать стену». Он должен формировать характер здания, работать на квартал, отражать ценности владельца — и при этом служить десятилетиями без потери качества.
+                  Фасад «қабырғаны жабу» керек деп есептемейміз. Ол ғимараттың мінезін қалыптастыруы, квартал үшін жұмыс жасауы, иесінің құндылықтарын көрсетуі — және сапасын жоғалтпай онжылдықтар бойы қызмет етуі тиіс.
                 </p>
               </Reveal>
               <Reveal delay={220}>
                 <p className="text-[17px] leading-[1.7] text-ink-600 mb-6">
-                  Поэтому в Манас Строй каждый проект начинается с архитектурного эскиза и расчёта теплотехники, а не с прайса материалов. Мы говорим заказчику «не подходит», когда выбранный материал не выдержит климат Жаңаөзен — и предлагаем альтернативу.
+                  Сондықтан Манас Строй-да әр жоба материалдардың прайсынан емес, сәулеттік эскиздан және жылуфизиканы есептеуден басталады. Таңдалған материал Жаңаөзен климатына төзбеген кезде тапсырыс берушіге «жарамайды» деп айтамыз — және балама ұсынамыз.
                 </p>
               </Reveal>
               <Reveal delay={280}>
                 <div className="mt-10 grid grid-cols-2 gap-4">
-                  <Pillar value="01" label="Только фасады"   text="Никаких отвлечений на смежные направления."/>
-                  <Pillar value="02" label="Под ключ"        text="Проект, производство и монтаж — внутри студии."/>
-                  <Pillar value="03" label="Архитектура"     text="Каждый объект ведёт практикующий архитектор."/>
-                  <Pillar value="04" label="Гарантия год" text="Письменное обязательство на материал и работу."/>
+                  <Pillar value="01" label="Тек фасадтар"        text="Ешқандай байланыс бағыттарына алаңдамаймыз."/>
+                  <Pillar value="02" label="Кілтке дейін"        text="Жоба, өндіріс және монтаж — студия ішінде."/>
+                  <Pillar value="03" label="Сәулет"              text="Әр нысанды тәжірибелі сәулетші жүргізеді."/>
+                  <Pillar value="04" label="Бір жыл кепілдік"    text="Материал мен жұмысқа жазбаша міндеттеме."/>
                 </div>
               </Reveal>
             </div>
@@ -132,21 +132,21 @@ function AboutPage({ navigate, onOpenConsult }) {
         <Container size="wide">
           <Card className="p-10 md:p-16 grid lg:grid-cols-12 gap-10 items-center">
             <div className="lg:col-span-7">
-              <Reveal><Eyebrow className="mb-5">ПРИХОДИТЕ В СТУДИЮ</Eyebrow></Reveal>
+              <Reveal><Eyebrow className="mb-5">СТУДИЯҒА КЕЛІҢІЗ</Eyebrow></Reveal>
               <Reveal delay={80}>
                 <h3 className="display text-[clamp(28px,4vw,48px)] font-medium leading-tight tracking-tight">
-                  Покажем производство<br/>и завершённые объекты.
+                  Өндіріс пен аяқталған<br/>нысандарды көрсетеміз.
                 </h3>
               </Reveal>
               <Reveal delay={140}>
                 <p className="mt-5 text-[15.5px] text-ink-500 max-w-xl leading-[1.65]">
-                  Лучший способ убедиться в качестве — увидеть его своими глазами. Назначьте визит, и мы покажем производство термопанелей и один из завершённых фасадов в Жаңаөзен.
+                  Сапаға көз жеткізудің ең жақсы жолы — оны өз көзімен көру. Визит белгілеңіз, біз термопанельдер өндірісін және Жаңаөзендегі аяқталған фасадтардың бірін көрсетеміз.
                 </p>
               </Reveal>
             </div>
             <div className="lg:col-span-5 flex flex-col gap-3">
-              <Button onClick={onOpenConsult} variant="primary" size="lg">Назначить визит</Button>
-              <Button onClick={() => navigate('contact')} variant="outline" size="lg" iconAfter={<Icons.MapPin size={16}/>}>Адрес и контакты</Button>
+              <Button onClick={onOpenConsult} variant="primary" size="lg">Визит белгілеу</Button>
+              <Button onClick={() => navigate('contact')} variant="outline" size="lg" iconAfter={<Icons.MapPin size={16}/>}>Мекенжай және байланыс</Button>
             </div>
           </Card>
         </Container>
@@ -168,19 +168,19 @@ function Pillar({ value, label, text }) {
 // ---------- Guarantees ----------
 function GuaranteesSection() {
   const items = [
-    { icon: 'Shield',    title: '15 лет на материал', text: 'Цветостойкость, морозостойкость и геометрическая стабильность. Гарантия фиксируется письменно в договоре.' },
-    { icon: 'Wrench',    title: 'Год на монтаж',   text: 'Качество узлов крепления, герметизация швов, ветрозащита. Бесплатный сервис в течение всего срока.' },
-    { icon: 'Snowflake', title: 'Гарантия зимовки',   text: 'Возможность монтажа при −20 °C без потери качества. Подтверждено за 12 зим в Жаңаөзен.' },
-    { icon: 'Award',     title: 'Соответствие СНиП',  text: 'Все системы прошли испытания в аккредитованных лабораториях и имеют действующие сертификаты соответствия.' },
+    { icon: 'Shield',    title: 'Материалға 15 жыл',    text: 'Түстіліктің тұрақтылығы, аязға төзімділік және геометриялық тұрақтылық. Кепілдік шартта жазбаша бекітіледі.' },
+    { icon: 'Wrench',    title: 'Монтажға бір жыл',      text: 'Бекіту торабтарының сапасы, жіктерді герметизациялау, желден қорғау. Барлық мерзім бойы тегін сервис.' },
+    { icon: 'Snowflake', title: 'Қыстауға кепілдік',     text: 'Сапасын жоғалтпай −20 °C-та монтаж жүргізу мүмкіндігі. Жаңаөзенде 12 қыста расталды.' },
+    { icon: 'Award',     title: 'ҚНжЕ сәйкестігі',       text: 'Барлық жүйелер аккредиттелген зертханаларда сынақтан өткен және қолданыстағы сәйкестік сертификаттарына ие.' },
   ];
   return (
     <Section tone="mute" className="py-28 md:py-40">
       <Container size="wide">
         <SectionHeader
           align="split"
-          eyebrow="ГАРАНТИИ"
-          title={<>Письменные обязательства,<br/>а не общие фразы</>}
-          lead="Все наши гарантии прописаны в договоре с конкретными сроками и условиями. Сервисное сопровождение действует на весь период."
+          eyebrow="КЕПІЛДІКТЕР"
+          title={<>Жазбаша міндеттемелер,<br/>жалпы сөздер емес</>}
+          lead="Барлық кепілдіктеріміз нақты мерзімдер мен шарттармен шартта жазылады. Сервистік қолдау барлық мерзімде жүреді."
         />
         <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-ink-200 rounded-3xl overflow-hidden border border-ink-200">
           {items.map((it, i) => {
@@ -204,21 +204,21 @@ function GuaranteesSection() {
 // ---------- Production timeline ----------
 function ProductionTimeline() {
   const events = [
-    { year: '2013', text: 'Основание производственной площадки в Жаңаөзен. Первая бригада — 4 человека.' },
-    { year: '2015', text: 'Запуск собственной линии термопанелей. Первые объекты в премиум-сегменте.' },
-    { year: '2018', text: 'Сертификация системы менеджмента качества по ISO 9001:2015.' },
-    { year: '2020', text: 'Расширение производства до 12 000 м² панелей в год. Гарантия увеличена до одного года.' },
-    { year: '2023', text: 'Запуск архитектурной мастерской — проекты фасадов выполняются внутри студии.' },
-    { year: '2026', text: '5000+ завершённых объектов. Бригады работают одновременно на 14 площадках.' },
+    { year: '2013', text: 'Жаңаөзенде өндіріс алаңын негіздеу. Бірінші бригада — 4 адам.' },
+    { year: '2015', text: 'Термопанельдердің өз желісін іске қосу. Премиум сегменттегі алғашқы нысандар.' },
+    { year: '2018', text: 'ISO 9001:2015 бойынша сапа менеджменті жүйесін сертификаттау.' },
+    { year: '2020', text: 'Өндірісті жылына 12 000 м² панельге дейін кеңейту. Кепілдік бір жылға дейін ұлғайтылды.' },
+    { year: '2023', text: 'Сәулеттік шеберхананы іске қосу — фасад жобалары студия ішінде орындалады.' },
+    { year: '2026', text: '5000+ аяқталған нысан. Бригадалар бір мезгілде 14 алаңда жұмыс жасайды.' },
   ];
   return (
     <Section className="py-28 md:py-40">
       <Container size="wide">
         <SectionHeader
           align="split"
-          eyebrow="ИСТОРИЯ"
-          title="Восемь лет в одной дисциплине"
-          lead="Мы не открывали новые направления, не уходили в смежные ниши. Все эти годы — фасады, фасады и фасады."
+          eyebrow="ТАРИХ"
+          title="Бір пәнде сегіз жыл"
+          lead="Жаңа бағыттар ашқан жоқпыз, байланысты нишаларға кетпедік. Осы жылдардың барлығы — фасадтар, фасадтар және фасадтар."
         />
         <div className="mt-16 md:mt-24 relative">
           <div className="absolute left-[88px] md:left-[120px] top-0 bottom-0 w-px bg-ink-200"/>
@@ -245,20 +245,20 @@ function ProductionTimeline() {
 function ValuesSection() {
   const { Photos } = window.AppData;
   const values = [
-    { title: 'Качество без компромиссов', text: 'Мы не используем материалы дешевле определённого порога — даже если клиент готов. Это вопрос репутации, которая строится десятилетиями.' },
-    { title: 'Прозрачность сметы',        text: 'В смете прописывается каждая позиция: материалы, работы, доставка, утилизация. Никаких «прочих расходов» и «по факту».' },
-    { title: 'Сроки = договор',           text: 'Если мы зафиксировали срок в договоре — мы укладываемся в него. За 8 лет — 100% объектов сданы в срок или досрочно.' },
-    { title: 'Сервис после',              text: 'После сдачи фасада мы не исчезаем. Раз в два года — бесплатный плановый осмотр и фотоотчёт состояния.' },
+    { title: 'Компромиссіз сапа',     text: 'Белгілі бір шектен төмен материалдарды пайдаланбаймыз — тіпті тапсырыс беруші дайын болса да. Бұл онжылдықтар бойы қалыптасатын беделдің мәселесі.' },
+    { title: 'Сметаның ашықтығы',     text: 'Сметада әр позиция жазылады: материалдар, жұмыстар, жеткізу, кәдеге жарату. Ешқандай «өзге шығындар» және «нақтылы бойынша» жоқ.' },
+    { title: 'Мерзімдер = шарт',      text: 'Шартта мерзімді бекітсек — оны сақтаймыз. 8 жылда — нысандардың 100%-ы мерзімінде немесе мерзімінен бұрын тапсырылды.' },
+    { title: 'Тапсырылғаннан кейінгі сервис', text: 'Фасадты тапсырғаннан кейін жоғалып кетпейміз. Екі жылда бір рет — тегін жоспарлы тексеру және күй туралы фотоесеп.' },
   ];
   return (
     <Section tone="mute" className="py-28 md:py-40">
       <Container size="wide">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-5">
-            <Reveal><Eyebrow className="mb-5">ЦЕННОСТИ</Eyebrow></Reveal>
+            <Reveal><Eyebrow className="mb-5">ҚҰНДЫЛЫҚТАР</Eyebrow></Reveal>
             <Reveal delay={80}>
               <h2 className="display text-[clamp(34px,4.4vw,56px)] font-medium leading-[1] tracking-tightest">
-                Чем мы руководствуемся<br/>в работе
+                Жұмыста нені<br/>басшылыққа аламыз
               </h2>
             </Reveal>
             <Reveal delay={140}>
@@ -294,12 +294,12 @@ function ValuesSection() {
 // ---------- Awards / certifications ----------
 function AwardsStrip() {
   const items = [
-    { tag: 'ISO 9001:2015', label: 'Система менеджмента' },
-    { tag: 'СТ РК',         label: 'Сертификация продукции' },
-    { tag: 'TÜV',           label: 'Тестирование материалов' },
-    { tag: 'F300',          label: 'Морозостойкость' },
-    { tag: 'НГ',            label: 'Класс пожарной безопасности' },
-    { tag: '2024',          label: 'Премия Best Façade KZ' },
+    { tag: 'ISO 9001:2015', label: 'Менеджмент жүйесі' },
+    { tag: 'СТ РК',         label: 'Өнімді сертификаттау' },
+    { tag: 'TÜV',           label: 'Материалдарды сынау' },
+    { tag: 'F300',          label: 'Аязға төзімділік' },
+    { tag: 'НГ',            label: 'Өрт қауіпсіздігі класы' },
+    { tag: '2024',          label: 'Best Façade KZ сыйлығы' },
   ];
   return (
     <Section className="py-20 md:py-24 border-y border-ink-100">
