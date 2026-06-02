@@ -262,17 +262,14 @@ function FloatingWhatsApp() {
   }, []);
   return (
     <a
-      href="https://wa.me/77022140606"
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`fixed z-30 bottom-6 right-6 flex items-center gap-3 pl-3 pr-5 h-14 rounded-full bg-[#25D366] text-white shadow-[0_16px_40px_-8px_rgba(37,211,102,0.55)] hover:shadow-[0_20px_50px_-8px_rgba(37,211,102,0.7)] transition-all duration-500 ${show ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'}`}
-    >
-      <span className="relative flex items-center justify-center h-9 w-9 rounded-full bg-white/15">
-        <span className="absolute inset-0 rounded-full bg-white/20 animate-ping" />
-        <Icons.WhatsApp size={20}/>
-      </span>
-      <span className="font-medium text-[14px] tracking-tight hidden sm:block">WhatsApp-қа жазу</span>
-    </a>
+  href="https://go.2gis.com/lBR34"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`fixed z-30 bottom-6 right-6 flex items-center justify-center h-14 w-20 rounded-2xl bg-white shadow-[0_8px_32px_-4px_rgba(0,0,0,0.18)] hover:shadow-[0_12px_40px_-4px_rgba(0,0,0,0.25)] transition-all duration-500 ${show ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'}`}
+>
+  <img src="images/2gis-seeklogo.png" alt="2GIS" width="56" height="56" style={{objectFit:'contain', filter:'drop-shadow(0 8px 24px rgba(0,0,0,0.25))'}}/>
+
+</a>
   );
 }
 
